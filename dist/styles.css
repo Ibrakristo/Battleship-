@@ -2,3 +2,30 @@ html,
 body {
   margin: 0px;
 }
+.wrapper{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.container{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(10,50px);
+  grid-template-rows: repeat(10,50px);
+}
+
+.square{
+  border: 1px solid black;
+}
+
+.ship{
+  background-color: gray;
+}
+
+.hit{
+  background-color: green;
+}
+
+.miss{
+  background-color: red;
+}
